@@ -1,0 +1,544 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial;
+}
+
+ header{
+  position: sticky;
+  background-color: #ffffff;
+  color: #000;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+header h1{
+  margin: 0.8em;
+  font-weight: 600;
+}
+
+.right-nav{
+  display: none;
+}
+
+nav .inner-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+.right-nav a{
+  font-weight: 600;
+}
+
+li a{
+  padding: 1em;
+}
+
+ul li{
+  display: inline;
+}
+
+.capital{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+main img{
+  width: 100%;
+}
+  
+main .capital{
+  padding: 0.3em 0.4em;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 0.7em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+
+.first-pic{
+  position: relative;
+  margin-bottom: 3.5em;
+}
+
+.first-pic h1{
+  position: absolute;
+  bottom: 110px;
+  color: #ffffff;
+  font-weight: 300;
+  left: 135px;
+}
+
+.project-heading{
+  margin-bottom: 3em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  margin-bottom: 1em;
+}
+
+.houses{
+  width: 90%;
+  margin: auto;
+}
+
+.lower{
+  margin-bottom: 3.5em;
+}
+
+.house-type img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.house-type{
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.houses h3{
+  color: #ffffff;
+  background-color: black;
+  padding: 0.3em;
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+}
+
+.about-heading {
+  margin-bottom: 3em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description p{
+  margin-bottom: 1.5em;
+  font-weight: 700;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.employee img{
+  margin-bottom: 0.5em;
+  filter: grayscale(80%);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staff{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.5em;
+}
+
+.staff-description h4{
+  color: gray;
+  margin-bottom: 0.8em;
+}
+
+.staff-description p{
+  font-weight: 600;
+  margin-bottom: 0.7em;
+}
+
+.staff-description button{
+  color: #000;
+  background-color: lightgray;
+  padding: 0.8em;
+  border: none;
+  margin-bottom: 1.2em;
+  font-size: 1em;
+  font-weight: 700;
+  width: 100%;
+}
+.contact-heading{
+  margin-bottom: 3em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-description p{
+  font-weight: 600;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+
+.input{
+  width: 100%;
+  padding: 0.6em;
+  margin-bottom: 0.9em;
+}
+
+form button{
+  color: #ffffff;
+  background-color: #000;
+  padding: 1em 2em;
+  border: none;
+  margin-top: 1.3em;
+  margin-bottom: 3em;
+}
+
+form {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name{
+  position: relative;
+  width: 100%;
+  }
+
+.icon{
+  position: absolute;
+  top: 20%;
+  margin-left: 94%;
+  color: gray;
+  }
+
+.contact-description img{
+  width: 100%;
+}
+
+
+@media only screen and (min-width:650px){
+
+  nav .inner-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right-nav{
+    display: inline;
+  }
+
+  li a{
+    text-decoration: none;
+    padding: 1em;
+    color: #000;
+  }
+
+  ul li{
+    list-style: none;
+    font-weight: 300;
+    display: inline;
+  }
+
+  main img{
+    width: 100%;
+  }
+    
+  main .capital{
+    padding: 0.3em 0.4em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 0.7em;
+  }
+
+  .first-pic{
+    position: relative;
+  }
+
+  .first-pic h1{
+    position: absolute;
+    bottom: 140px;
+    left: 190px;
+    font-size: 2.7em;
+  }
+
+  .houses{
+    display: flex;
+    width: 95%;
+    margin: auto;
+  }
+
+  .house-type img{
+    margin-bottom: 0.9em;
+  }
+
+  .house-type{
+    width: 90%;
+    margin: auto; 
+  }
+
+  .staff{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .staff-1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .staff-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .employee{
+    width: 48.5%;
+  }
+
+  .name{
+    position: relative;
+    width: 100%;
+  }
+
+    .icon{
+    position: absolute;
+    top: 20%;
+    margin-left: 95.5%;
+    color: gray;
+    }
+  
+  }
+
+  @media only screen and (min-width:960px){
+
+    nav .inner-nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .right-nav{
+      display: inline;
+    }
+
+    li a{
+      text-decoration: none;
+      padding: 1em;
+      color: #000;
+    }
+
+    ul li{
+      list-style: none;
+      font-weight: 300;
+      display: inline;
+    }
+
+    main img{
+      width: 100%;
+    }
+      
+    main .capital{
+      padding: 0.3em 0.4em;
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: 0.7em;
+    }
+
+    .first-pic{
+      position: relative;
+    }
+
+    .first-pic h1{
+      position: absolute;
+      bottom: 225px;
+      left: 320px;
+      font-size: 3.5em;
+    }
+
+    .houses{
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      margin: auto;
+    }
+
+    .house-type{
+      width: 90%
+      margin-bottom: 1em;
+    }
+
+    .house-type img{
+      margin-bottom: 0.9em;
+    }
+  
+    .staff{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .staff-1{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .staff-2 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .employee{
+      width: 48.5%;
+    }
+
+    .name{
+      position: relative;
+      width: 100%;
+    }
+
+    .icon{
+    position: absolute;
+    top: 20%;
+    margin-left: 96.8%;
+    color: gray;
+    }
+  
+  }
+
+
+  @media only screen and (min-width:1280px){
+
+    nav .inner-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right-nav{
+    display: inline;
+  }
+
+  li a{
+    text-decoration: none;
+    padding: 1em;
+    color: #000;
+  }
+
+  ul li{
+    list-style: none;
+    font-weight: 300;
+    display: inline;
+  }
+
+  main img{
+    width: 100%;
+  }
+    
+  main .capital {
+    padding: 0.3em 0.4em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 0.7em;
+  }
+
+  .first-pic{
+    position: relative;
+  }
+
+  .first-pic h1{
+    position: absolute;
+    bottom: 310px;
+    left: 505px;
+    font-size: 3.5em;
+  }
+
+  .project-heading{
+    margin-bottom: 2em;
+    }
+
+  .houses{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin: auto;
+  }
+
+  .house-type{
+    width: 23%;
+  }
+
+  .lower{
+    display: flex;
+  }
+
+  .upper{
+    display: flex;
+  }
+
+  .about-heading{
+  margin-bottom: 2em;
+  }
+
+  .staff{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .staff-1{
+    width: 49.3%;
+  }
+
+  .staff-2{
+    width: 49.3%;
+  }
+
+  .contact-heading{
+    margin-bottom: 2em;
+  }
+  
+  .name{
+    position: relative;
+    width: 100%;
+  }
+
+  .icon{
+    position: absolute;
+    top: 20%;
+    margin-left: 97.4%;
+    color: gray;
+  }
+
+  }
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
